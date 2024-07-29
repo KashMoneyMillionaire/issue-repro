@@ -4,10 +4,6 @@
 	},
   
   "features": {
-    "ghcr.io/devcontainers/features/dotnet:2.0.6": {},
-    "ghcr.io/dapr/cli/dapr-cli:0": {},
-    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-    "ghcr.io/devcontainers/features/sshd:1": {}
   },
 
   // This can be used for prebuilds
@@ -23,13 +19,7 @@
     // Configure properties specific to VS Code.
     "vscode": {
       // Add the IDs of extensions you want installed when the container is created.
-      "extensions": [
-        "ms-dotnettools.csdevkit",
-        "ms-azuretools.vscode-dapr",
-        "ms-azuretools.vscode-docker",
-        "ms-azuretools.vscode-bicep",
-        "github.vscode-github-actions"
-      ]
+      "extensions": []
     }
   }
 
